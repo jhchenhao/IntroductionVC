@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "IntroductionVC.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<IntroductionDelegate>
 
 @end
 
@@ -22,7 +22,7 @@
     [self.window makeKeyAndVisible];
     
     IntroductionVC *vc = [[IntroductionVC alloc] initWithConfigBlock:^(IntroductionVC *vc, NSInteger pagNum) {
-//        if (pagNum == 1) {
+        //        if (pagNum == 1) {
         UIImageView *imagev = [[UIImageView alloc] initWithFrame:CGRectMake(50, 200, 200, 200)];
         imagev.image = [UIImage imageNamed:@"IMG_0108"];
         
@@ -31,16 +31,21 @@
         [vc.mainViews setObject:imagev forKey:@(pagNum)];
         [vc.minorViews setObject:view forKey:@(pagNum)];
         return @[imagev, view];
-//        }
+        //        }
         return [NSArray array];
     }];
     vc.pageNum = 3;
+    vc.delegate = self;
     vc.useSystemAnimation = YES;
     self.window.rootViewController = vc;
     
     return YES;
 }
 
+- (void)introductionScrollWithContentOffset:(CGFloat)offset
+{
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

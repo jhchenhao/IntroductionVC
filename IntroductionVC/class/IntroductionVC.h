@@ -10,6 +10,7 @@
 
 @protocol IntroductionDelegate <NSObject>
 
+@optional
 - (void)introductionScrollWithContentOffset:(CGFloat)offset;
 
 @end
