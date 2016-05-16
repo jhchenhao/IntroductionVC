@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3A2CF0FB6CA75F0EA4048708A9C74516C32E856E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3A2CF0FB6CA75F0EA4048708A9C74516C32E856E" : 0,
+    "A03A02E501BF334AC201EDAE158353AC15E9D1E5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2EDB22EC-1420-4F4E-ADC2-3AFDFC8A63D4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3A2CF0FB6CA75F0EA4048708A9C74516C32E856E" : "IntroductionVC\/",
+    "A03A02E501BF334AC201EDAE158353AC15E9D1E5" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IntroductionVC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IntroductionVC.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:jhchenhao\/IntroductionVC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A2CF0FB6CA75F0EA4048708A9C74516C32E856E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:jhtxch\/CHLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A03A02E501BF334AC201EDAE158353AC15E9D1E5"
+    }
+  ]
+}
